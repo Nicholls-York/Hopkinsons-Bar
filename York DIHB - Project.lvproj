@@ -23,17 +23,19 @@
 				<Item Name="Interpolate Oversampled Data.vi" Type="VI" URL="../SubVIs/Interpolate Oversampled Data.vi"/>
 				<Item Name="Identify Pulse and Noise.vi" Type="VI" URL="../SubVIs/Identify Pulse and Noise.vi"/>
 			</Item>
-			<Item Name="Append (Full) to filepath.vi" Type="VI" URL="../SubVIs/Append (Full) to filepath.vi"/>
+			<Item Name="Filepath VIs" Type="Folder">
+				<Item Name="Append (Full) to filepath.vi" Type="VI" URL="../SubVIs/Append (Full) to filepath.vi"/>
+				<Item Name="Append String to Filepath.vi" Type="VI" URL="../SubVIs/Append String to Filepath.vi"/>
+				<Item Name="File Extension to Delimiter.vi" Type="VI" URL="../SubVIs/File Extension to Delimiter.vi"/>
+				<Item Name="Show Open File Dialog (TSV CSV).vi" Type="VI" URL="../SubVIs/Show Open File Dialog (TSV CSV).vi"/>
+			</Item>
 			<Item Name="Convert Dataset to Strings.vi" Type="VI" URL="../SubVIs/Convert Dataset to Strings.vi"/>
-			<Item Name="Append String to Filepath.vi" Type="VI" URL="../SubVIs/Append String to Filepath.vi"/>
 			<Item Name="Convert 2 DBL Arrays to Strings.vi" Type="VI" URL="../SubVIs/Convert 2 DBL Arrays to Strings.vi"/>
 			<Item Name="Parse Spreadsheet Array.vi" Type="VI" URL="../SubVIs/Parse Spreadsheet Array.vi"/>
 			<Item Name="Apply Calibration - Slope and Offset.vi" Type="VI" URL="../SubVIs/Apply Calibration - Slope and Offset.vi"/>
 			<Item Name="Apply Calibration - Slope Only.vi" Type="VI" URL="../SubVIs/Apply Calibration - Slope Only.vi"/>
 			<Item Name="Process Calibration Spreadsheet (TSV).vi" Type="VI" URL="../SubVIs/Process Calibration Spreadsheet (TSV).vi"/>
 			<Item Name="Error Handler - Load Calibration.vi" Type="VI" URL="../SubVIs/Error Handler - Load Calibration.vi"/>
-			<Item Name="File Extension to Delimiter.vi" Type="VI" URL="../SubVIs/File Extension to Delimiter.vi"/>
-			<Item Name="Show Open File Dialog (TSV CSV).vi" Type="VI" URL="../SubVIs/Show Open File Dialog (TSV CSV).vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="GUI State - Typedef.ctl" Type="VI" URL="../Typedefs/GUI State - Typedef.ctl"/>
