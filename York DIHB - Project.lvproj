@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Constants" Type="Folder">
+				<Item Name="Pretrigger Length - Constant.vi" Type="VI" URL="../SubVIs/Pretrigger Length - Constant.vi"/>
 				<Item Name="Default DateFile Path - Constant.vi" Type="VI" URL="../SubVIs/Default DateFile Path - Constant.vi"/>
 				<Item Name="Distance Between Gates - Constant.vi" Type="VI" URL="../SubVIs/Distance Between Gates - Constant.vi"/>
 				<Item Name="DIHB DAQmx Task Name - Constant.vi" Type="VI" URL="../SubVIs/DIHB DAQmx Task Name - Constant.vi"/>
