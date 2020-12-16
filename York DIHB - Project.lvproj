@@ -38,7 +38,7 @@
 			<Item Name="Error Handler - Load Calibration.vi" Type="VI" URL="../SubVIs/Error Handler - Load Calibration.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="GUI State - Typedef.ctl" Type="VI" URL="../Typedefs/GUI State - Typedef.ctl"/>
+			<Item Name="GUI Inputs Cluster - Typedef.ctl" Type="VI" URL="../Typedefs/GUI Inputs Cluster - Typedef.ctl"/>
 			<Item Name="Messages Cluster - Typedef.ctl" Type="VI" URL="../Typedefs/Messages Cluster - Typedef.ctl"/>
 			<Item Name="Program State - Enum.ctl" Type="VI" URL="../Typedefs/Program State - Enum.ctl"/>
 			<Item Name="User Event - Enum.ctl" Type="VI" URL="../Typedefs/User Event - Enum.ctl"/>
