@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -36,6 +36,7 @@
 			<Item Name="Apply Calibration - Slope and Offset.vi" Type="VI" URL="../SubVIs/Apply Calibration - Slope and Offset.vi"/>
 			<Item Name="Apply Calibration - Slope Only.vi" Type="VI" URL="../SubVIs/Apply Calibration - Slope Only.vi"/>
 			<Item Name="Process Calibration Spreadsheet (TSV).vi" Type="VI" URL="../SubVIs/Process Calibration Spreadsheet (TSV).vi"/>
+			<Item Name="Error Handler - Initialize DAQ.vi" Type="VI" URL="../SubVIs/Error Handler - Initialize DAQ.vi"/>
 			<Item Name="Error Handler - Load Calibration.vi" Type="VI" URL="../SubVIs/Error Handler - Load Calibration.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
@@ -48,11 +49,15 @@
 			<Item Name="Program Data - Typedef.ctl" Type="VI" URL="../Typedefs/Program Data - Typedef.ctl"/>
 			<Item Name="Calibration Method - Enum.ctl" Type="VI" URL="../Typedefs/Calibration Method - Enum.ctl"/>
 		</Item>
-		<Item Name="York DIHB - Data Processing - SNR and FFT.vi" Type="VI" URL="../York DIHB - Data Processing - SNR and FFT.vi"/>
-		<Item Name="York DIHB - Data Processing - Oversampling and Interpolation.vi" Type="VI" URL="../York DIHB - Data Processing - Oversampling and Interpolation.vi"/>
-		<Item Name="York DIHB - Data Processing - Apply Calibration.vi" Type="VI" URL="../York DIHB - Data Processing - Apply Calibration.vi"/>
-		<Item Name="York DIHB - Legacy Software.vi" Type="VI" URL="../York DIHB - Legacy Software.vi"/>
-		<Item Name="York DIHB - Measure Load Cell.vi" Type="VI" URL="../York DIHB - Measure Load Cell.vi"/>
+		<Item Name="Data Analysis" Type="Folder">
+			<Item Name="York DIHB - Data Processing - SNR and FFT.vi" Type="VI" URL="../York DIHB - Data Processing - SNR and FFT.vi"/>
+			<Item Name="York DIHB - Data Processing - Oversampling and Interpolation.vi" Type="VI" URL="../York DIHB - Data Processing - Oversampling and Interpolation.vi"/>
+			<Item Name="York DIHB - Data Processing - Apply Calibration.vi" Type="VI" URL="../York DIHB - Data Processing - Apply Calibration.vi"/>
+		</Item>
+		<Item Name="Legacy Software" Type="Folder">
+			<Item Name="York DIHB - Legacy Software.vi" Type="VI" URL="../York DIHB - Legacy Software.vi"/>
+			<Item Name="York DIHB - Measure Load Cell.vi" Type="VI" URL="../York DIHB - Measure Load Cell.vi"/>
+		</Item>
 		<Item Name="York DIHB - Data Capture.vi" Type="VI" URL="../York DIHB - Data Capture.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
